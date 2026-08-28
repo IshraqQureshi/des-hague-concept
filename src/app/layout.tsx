@@ -25,6 +25,16 @@ export const metadata: Metadata = {
   title: "Des Hague | CEO, Author, Investor & Leadership Strategist",
   description:
     "Des Hague is a CEO, investor, author, advisor and leadership strategist focused on building businesses, developing leaders and creating lasting impact.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   openGraph: {
     title: "Des Hague | CEO, Author, Investor & Leadership Strategist",
     description:
