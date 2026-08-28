@@ -50,8 +50,8 @@ export default function Navbar() {
               href={link.href}
               className={`text-[12.5px] font-medium uppercase tracking-[0.14em] transition-colors duration-500 ${
                 light
-                  ? "text-ivory-dim/80 hover:text-ivory"
-                  : "text-ink/70 hover:text-ink"
+                  ? "text-ivory-dim/75 hover:text-ivory"
+                  : "text-ink/65 hover:text-ink"
               }`}
             >
               {link.label}

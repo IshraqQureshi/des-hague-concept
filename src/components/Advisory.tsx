@@ -12,7 +12,7 @@ export default function Advisory() {
       <Container>
         <Reveal>
           <Eyebrow>Board &amp; Advisory</Eyebrow>
-          <h2 className="mt-6 max-w-[16ch] font-serif text-[11vw] font-light leading-[1.02] text-ink sm:text-[7vw] lg:text-[3.6vw]">
+          <h2 className="mt-6 max-w-[16ch] heading-section text-ink">
             Trusted in the boardroom.
           </h2>
           <p className="mt-6 max-w-[54ch] text-[17px] leading-[1.7] text-ink/65 md:text-[18px]">
@@ -28,7 +28,7 @@ export default function Advisory() {
           {row.map((org, i) => (
             <span
               key={`${org}-${i}`}
-              className="mx-8 shrink-0 whitespace-nowrap font-serif text-[26px] text-ink/55 md:text-[32px]"
+              className="mx-4 flex shrink-0 items-center whitespace-nowrap rounded-full border border-stone-line px-8 py-3 font-serif text-[26px] text-ink/65"
             >
               {org}
             </span>

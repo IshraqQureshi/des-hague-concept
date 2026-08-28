@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Container from "@/components/ui/Container";
 import CTALink from "@/components/ui/CTALink";
+import Eyebrow from "@/components/ui/Eyebrow";
 
 export default function Hero() {
   return (
@@ -36,16 +37,15 @@ export default function Hero() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="relative z-10 lg:col-span-7 lg:pb-24"
           >
-            <span className="inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.28em] text-ivory-dim/70">
-              <span className="h-px w-8 bg-accent-soft" />
+            <Eyebrow tone="light">
               CEO &middot; Investor &middot; Author &middot; Advisor
-            </span>
+            </Eyebrow>
 
             <h1 className="mt-7 max-w-[13ch] font-serif text-[13vw] font-light leading-[0.98] tracking-tight sm:max-w-[12ch] sm:text-[9vw] lg:max-w-[10ch] lg:text-[4.6vw]">
               Leadership forged in the real world.
             </h1>
 
-            <p className="mt-8 max-w-[46ch] text-[17px] leading-[1.7] text-ivory-dim/85 md:text-[18px]">
+            <p className="mt-8 max-w-[46ch] text-[17px] leading-[1.7] text-ivory-dim/75 md:text-[18px]">
               For decades, Des Hague has built and transformed organizations,
               advised leaders, invested in businesses, and shared the lessons
               earned along the way.
@@ -53,7 +53,7 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <CTALink href="#about" variant="solid" className="!bg-ivory !text-ink hover:!bg-accent-soft">
-                Discover Des&rsquo;s Story
+                Read the Story
               </CTALink>
               <CTALink href="#speaking" variant="outline-light">
                 Invite Des to Speak

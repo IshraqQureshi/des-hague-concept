@@ -21,11 +21,11 @@ export default function Speaking() {
 
         <div className="order-1 flex flex-col justify-center px-6 py-24 md:px-10 lg:order-2 lg:col-span-6 lg:px-20 lg:py-32">
           <Reveal>
-            <span className="inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.28em] text-ivory-dim/60">
+            <span className="inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.28em] text-ivory-dim/50">
               <span className="h-px w-8 bg-accent-soft" />
               Speaking
             </span>
-            <h2 className="mt-7 max-w-[14ch] font-serif text-[11vw] font-light leading-[1.02] sm:text-[7vw] lg:text-[3.3vw]">
+            <h2 className="mt-7 max-w-[14ch] heading-section">
               Lessons earned, not theorized.
             </h2>
             <p className="mt-7 max-w-[46ch] text-[17px] leading-[1.7] text-ivory-dim/75 md:text-[18px]">
@@ -38,7 +38,7 @@ export default function Speaking() {
           <StaggerGroup className="mt-9 flex flex-wrap gap-3">
             {SPEAKING_TOPICS.map((topic) => (
               <StaggerItem key={topic}>
-                <span className="inline-block rounded-full border border-ivory/20 px-5 py-2.5 text-[12px] font-medium uppercase tracking-[0.12em] text-ivory-dim/85">
+                <span className="inline-block rounded-full border border-ivory/20 px-5 py-2.5 text-[12px] font-medium uppercase tracking-[0.12em] text-ivory-dim/75">
                   {topic}
                 </span>
               </StaggerItem>

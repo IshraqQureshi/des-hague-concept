@@ -10,7 +10,7 @@ export default function CareerTimeline() {
       <Container>
         <Reveal>
           <Eyebrow tone="light">Career</Eyebrow>
-          <h2 className="mt-6 max-w-[18ch] font-serif text-[11vw] font-light leading-[1.02] sm:text-[7vw] lg:text-[3.6vw]">
+          <h2 className="mt-6 max-w-[18ch] heading-section">
             A career built around transformation.
           </h2>
           <p className="mt-6 max-w-[58ch] text-[17px] leading-[1.7] text-ivory-dim/75 md:text-[18px]">
@@ -22,6 +22,10 @@ export default function CareerTimeline() {
 
         {/* Desktop: horizontal editorial timeline */}
         <Reveal delay={0.15} className="relative mt-20 hidden lg:block">
+          <div className="mb-4 flex items-center justify-end gap-2 text-[12px] font-medium uppercase tracking-[0.16em] text-ivory-dim/50">
+            <span>Drag to explore</span>
+            <span aria-hidden className="inline-block">&#8594;</span>
+          </div>
           <div
             aria-hidden
             className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-linear-to-l from-ink to-transparent"
@@ -42,13 +46,13 @@ export default function CareerTimeline() {
                     aria-hidden
                     className="absolute -top-[5px] left-6 h-[9px] w-[9px] rounded-full bg-accent-soft"
                   />
-                  <span className="font-serif text-2xl text-ivory-dim/40">
+                  <span className="font-serif text-2xl text-ivory-dim/50">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="mt-5 font-serif text-[19px] leading-tight text-ivory">
                     {m.org}
                   </h3>
-                  <p className="mt-2 text-[13px] leading-[1.6] text-ivory-dim/60">
+                  <p className="mt-2 text-[13px] leading-[1.6] text-ivory-dim/50">
                     {m.note}
                   </p>
                 </div>
@@ -66,11 +70,11 @@ export default function CareerTimeline() {
                   aria-hidden
                   className="absolute -left-[5px] top-7 h-[9px] w-[9px] rounded-full bg-accent-soft"
                 />
-                <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-ivory-dim/45">
+                <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-ivory-dim/50">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="mt-2 font-serif text-2xl text-ivory">{m.org}</h3>
-                <p className="mt-1.5 text-[14px] leading-[1.6] text-ivory-dim/60">
+                <p className="mt-1.5 text-[14px] leading-[1.6] text-ivory-dim/50">
                   {m.note}
                 </p>
               </div>

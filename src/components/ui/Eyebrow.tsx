@@ -7,8 +7,8 @@ export default function Eyebrow({
 }) {
   return (
     <span
-      className={`inline-flex items-center gap-3 text-[11px] md:text-[12px] font-medium uppercase tracking-[0.28em] ${
-        tone === "dark" ? "text-stone" : "text-ivory-dim/80"
+      className={`inline-flex items-center gap-3 text-[12px] md:text-[13px] font-medium uppercase tracking-[0.28em] ${
+        tone === "dark" ? "text-stone" : "text-ivory-dim/75"
       }`}
     >
       <span

@@ -9,7 +9,7 @@ export default function CurrentLeadership() {
       <Container>
         <Reveal>
           <Eyebrow>Leadership</Eyebrow>
-          <h2 className="mt-6 max-w-[16ch] font-serif text-[11vw] font-light leading-[1.02] text-ink sm:text-[7vw] lg:text-[3.6vw]">
+          <h2 className="mt-6 max-w-[16ch] heading-section text-ink">
             What Des leads today.
           </h2>
           <p className="mt-6 max-w-[52ch] text-[17px] leading-[1.7] text-ink/65 md:text-[18px]">
@@ -30,13 +30,13 @@ export default function CurrentLeadership() {
               />
               <div className="absolute inset-0 bg-linear-to-t from-ink from-15% via-ink/75 via-55% to-transparent" />
               <div className="relative z-10 p-8 md:p-12">
-                <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-ivory-dim/70">
+                <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-ivory-dim/75">
                   Current &middot; Chief Executive Officer
                 </span>
                 <h3 className="mt-4 font-serif text-[10vw] font-light leading-[0.98] text-ivory sm:text-[5.5vw] lg:text-[3vw]">
                   Potandon Produce
                 </h3>
-                <p className="mt-4 max-w-[38ch] text-[15px] leading-[1.7] text-ivory-dim/80">
+                <p className="mt-4 max-w-[38ch] text-[15px] leading-[1.7] text-ivory-dim/75">
                   Exclusive marketer of Green Giant Fresh Potatoes and Onions.
                 </p>
               </div>
@@ -53,7 +53,7 @@ export default function CurrentLeadership() {
                   <h3 className="font-serif text-[9vw] font-light leading-[0.98] text-ink sm:text-[4.5vw] lg:text-[2.3vw]">
                     Rä Foods
                   </h3>
-                  <p className="mt-3 max-w-[34ch] text-[15px] leading-[1.7] text-ink/60">
+                  <p className="mt-3 max-w-[34ch] text-[15px] leading-[1.7] text-ink/65">
                     Living nutrition.
                   </p>
                 </div>
@@ -62,14 +62,14 @@ export default function CurrentLeadership() {
 
             <Reveal delay={0.2}>
               <div className="flex h-[215px] flex-col justify-between bg-ink p-8 md:h-[268px] md:p-10">
-                <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-ivory-dim/60">
+                <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-ivory-dim/50">
                   Founded 2015 &middot; Founder &amp; CEO
                 </span>
                 <div>
                   <h3 className="font-serif text-[9vw] font-light leading-[0.98] text-ivory sm:text-[4.5vw] lg:text-[2.3vw]">
                     Hague Enterprises
                   </h3>
-                  <p className="mt-3 max-w-[34ch] text-[15px] leading-[1.7] text-ivory-dim/70">
+                  <p className="mt-3 max-w-[34ch] text-[15px] leading-[1.7] text-ivory-dim/75">
                     Investment &middot; Advisory &middot; Operational Leadership
                   </p>
                 </div>

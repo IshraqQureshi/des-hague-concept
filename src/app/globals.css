@@ -83,6 +83,29 @@ body {
   color: var(--color-ivory);
 }
 
+/* Shared editorial section-heading tier: every standard <h2> in a
+   content section (as opposed to the hero, closing CTA, or an
+   italic pull-quote treatment) uses this single fluid size instead
+   of a one-off hand-tuned vw value per section. */
+.heading-section {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  line-height: 1.02;
+  font-size: 11vw;
+}
+
+@media (min-width: 640px) {
+  .heading-section {
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-section {
+    font-size: 3.6vw;
+  }
+}
+
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--color-stone-light) var(--color-ivory);

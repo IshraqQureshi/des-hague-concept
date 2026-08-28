@@ -10,7 +10,7 @@ export default function Books() {
       <Container>
         <Reveal>
           <Eyebrow>Author</Eyebrow>
-          <h2 className="mt-6 max-w-[16ch] font-serif text-[11vw] font-light leading-[1.02] text-ink sm:text-[7vw] lg:text-[3.6vw]">
+          <h2 className="mt-6 max-w-[16ch] heading-section text-ink">
             Ideas shaped by experience.
           </h2>
         </Reveal>

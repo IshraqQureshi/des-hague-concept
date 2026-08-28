@@ -34,7 +34,7 @@ export default function HagueEnterprises() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-5">
             <Eyebrow>Hague Enterprises</Eyebrow>
-            <h2 className="mt-6 max-w-[15ch] font-serif text-[10vw] font-light leading-[1.05] text-ink sm:text-[6vw] lg:text-[2.9vw]">
+            <h2 className="mt-6 max-w-[15ch] heading-section text-ink">
               Backing people. Building businesses. Creating value.
             </h2>
             <p className="mt-6 max-w-[42ch] text-[17px] leading-[1.7] text-ink/65">
@@ -56,7 +56,7 @@ export default function HagueEnterprises() {
                     <h3 className="mt-3 font-serif text-[26px] leading-tight text-ink">
                       {p.title}
                     </h3>
-                    <p className="mt-3 max-w-[30ch] text-[15px] leading-[1.65] text-ink/60">
+                    <p className="mt-3 max-w-[30ch] text-[15px] leading-[1.65] text-ink/65">
                       {p.copy}
                     </p>
                   </div>

@@ -10,7 +10,7 @@ export default function Insights() {
       <Container>
         <Reveal>
           <Eyebrow>Ideas &amp; Media</Eyebrow>
-          <h2 className="mt-6 max-w-[16ch] font-serif text-[11vw] font-light leading-[1.02] text-ink sm:text-[7vw] lg:text-[3.6vw]">
+          <h2 className="mt-6 max-w-[16ch] heading-section text-ink">
             Ideas from the front lines.
           </h2>
         </Reveal>
@@ -23,7 +23,7 @@ export default function Insights() {
                 <h3 className="mt-5 font-serif text-[26px] leading-tight text-ink">
                   Articles
                 </h3>
-                <p className="mt-4 text-[15px] leading-[1.7] text-ink/60">
+                <p className="mt-4 text-[15px] leading-[1.7] text-ink/65">
                   Leadership, business, transformation and personal growth.
                 </p>
               </div>
@@ -34,31 +34,31 @@ export default function Insights() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="flex h-full flex-col overflow-hidden bg-ink text-ivory">
-              <div className="relative aspect-[16/10] w-full">
-                <Image
-                  src="/images/podcast-onwards.jpeg"
-                  alt="Onwards! with Des Hague — podcast cover art"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, 100vw"
-                  className="object-cover object-top"
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between p-10">
-                <div>
-                  <span className="font-serif text-lg text-ivory-dim/50">02</span>
-                  <h3 className="mt-5 font-serif text-[26px] leading-tight text-ivory">
-                    Podcasts
-                  </h3>
-                  <p className="mt-4 text-[15px] leading-[1.7] text-ivory-dim/70">
-                    Conversations with founders, executives and thought
-                    leaders on <em className="not-italic text-ivory">Onwards! with Des Hague</em>.
-                  </p>
+            <div className="flex h-full flex-col justify-between border border-stone-line bg-paper p-10">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="font-serif text-lg text-stone">02</span>
+                  <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full border border-stone-line">
+                    <Image
+                      src="/images/podcast-onwards.jpeg"
+                      alt="Onwards! with Des Hague — podcast cover art"
+                      fill
+                      sizes="48px"
+                      className="object-cover object-top"
+                    />
+                  </div>
                 </div>
-                <CTALink href="#" variant="link-light" className="mt-8">
-                  Listen Now
-                </CTALink>
+                <h3 className="mt-5 font-serif text-[26px] leading-tight text-ink">
+                  Podcasts
+                </h3>
+                <p className="mt-4 text-[15px] leading-[1.7] text-ink/65">
+                  Conversations with founders, executives and thought
+                  leaders on <em className="not-italic text-ink">Onwards! with Des Hague</em>.
+                </p>
               </div>
+              <CTALink href="#" variant="link-dark" className="mt-8">
+                Listen Now
+              </CTALink>
             </div>
           </Reveal>
 
@@ -69,7 +69,7 @@ export default function Insights() {
                 <h3 className="mt-5 font-serif text-[26px] leading-tight text-ink">
                   Interviews &amp; Media
                 </h3>
-                <p className="mt-4 text-[15px] leading-[1.7] text-ink/60">
+                <p className="mt-4 text-[15px] leading-[1.7] text-ink/65">
                   Selected appearances, interviews and speaking engagements.
                 </p>
               </div>

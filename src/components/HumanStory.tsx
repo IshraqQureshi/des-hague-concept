@@ -16,7 +16,7 @@ export default function HumanStory() {
           </Reveal>
 
           <Reveal delay={0.15}>
-            <p className="mx-auto mt-9 max-w-[52ch] text-[17px] leading-[1.85] text-ink/70 md:text-[18px]">
+            <p className="mx-auto mt-9 max-w-[52ch] text-[17px] leading-[1.85] text-ink/65 md:text-[18px]">
               Des believes real leadership is measured as much by resilience
               and mentorship as by results. Across every stage of his
               career, he has made room to lift others up &mdash; investing in
