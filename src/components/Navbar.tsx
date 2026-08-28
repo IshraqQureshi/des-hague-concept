@@ -43,7 +43,7 @@ export default function Navbar() {
           DES HAGUE
         </Link>
 
-        <nav className="hidden items-center gap-9 lg:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-9 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
@@ -101,7 +101,7 @@ export default function Navbar() {
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             className="border-t border-stone-line/60 bg-ivory px-6 pb-10 pt-6 lg:hidden"
           >
-            <nav className="flex flex-col gap-1">
+            <nav aria-label="Mobile" className="flex flex-col gap-1">
               {NAV_LINKS.map((link, i) => (
                 <motion.div
                   key={link.href}

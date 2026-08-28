@@ -28,7 +28,7 @@ export default function Advisory() {
           {row.map((org, i) => (
             <span
               key={`${org}-${i}`}
-              className="mx-8 shrink-0 whitespace-nowrap font-serif text-[26px] text-ink/35 md:text-[32px]"
+              className="mx-8 shrink-0 whitespace-nowrap font-serif text-[26px] text-ink/55 md:text-[32px]"
             >
               {org}
             </span>

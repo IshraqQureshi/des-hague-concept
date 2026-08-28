@@ -16,12 +16,12 @@ export default function Footer() {
             DES HAGUE
           </Link>
 
-          <nav className="flex flex-wrap gap-x-7 gap-y-2">
+          <nav aria-label="Footer" className="flex flex-wrap gap-x-7 gap-y-2">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-[12px] font-medium uppercase tracking-[0.12em] text-ink/55 transition-colors hover:text-ink"
+                className="text-[12px] font-medium uppercase tracking-[0.12em] text-ink/65 transition-colors hover:text-ink"
               >
                 {link.label}
               </Link>
@@ -35,7 +35,7 @@ export default function Footer() {
                 href={s.href}
                 target="_blank"
                 rel="noreferrer"
-                className="text-[12px] font-medium uppercase tracking-[0.12em] text-ink/55 transition-colors hover:text-ink"
+                className="text-[12px] font-medium uppercase tracking-[0.12em] text-ink/65 transition-colors hover:text-ink"
               >
                 {s.label}
               </a>
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col gap-2 border-t border-stone-line/70 pt-6 text-[12px] text-ink/40 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 flex flex-col gap-2 border-t border-stone-line/70 pt-6 text-[12px] text-ink/65 sm:flex-row sm:items-center sm:justify-between">
           <span>&copy; {new Date().getFullYear()} Des Hague. All rights reserved.</span>
           <span>Design concept &mdash; not the production site.</span>
         </div>

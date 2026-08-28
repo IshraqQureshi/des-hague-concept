@@ -26,7 +26,12 @@ export default function CareerTimeline() {
             aria-hidden
             className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-linear-to-l from-ink to-transparent"
           />
-          <div className="no-scrollbar relative overflow-x-auto pb-6">
+          <div
+            role="region"
+            aria-label="Career milestones, scroll horizontally"
+            tabIndex={0}
+            className="no-scrollbar relative overflow-x-auto pb-6 focus-visible:outline-2 focus-visible:outline-accent-soft focus-visible:outline-offset-4"
+          >
             <div className="relative flex min-w-max gap-0 border-t border-ivory/15">
               {CAREER_MILESTONES.map((m, i) => (
                 <div

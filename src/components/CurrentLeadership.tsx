@@ -28,7 +28,7 @@ export default function CurrentLeadership() {
                 sizes="(min-width: 1024px) 58vw, 100vw"
                 className="object-cover object-top transition-transform duration-[1.4s] ease-out group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/35 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-ink from-15% via-ink/75 via-55% to-transparent" />
               <div className="relative z-10 p-8 md:p-12">
                 <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-ivory-dim/70">
                   Current &middot; Chief Executive Officer
