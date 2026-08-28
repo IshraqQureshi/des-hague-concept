@@ -15,7 +15,7 @@ export const CAREER_MILESTONES = [
   { org: "IHOP", note: "President — brand transformation" },
   { org: "Centerplate", note: "CEO — global hospitality" },
   { org: "Kohlberg & Company", note: "Private equity operating leadership" },
-  { org: "Entrepreneurship & Advisory", note: "Founder, board member, advisor" },
+  { org: "Independent Advisory", note: "Founder, board member, advisor" },
   { org: "Potandon Produce / Rä Foods", note: "CEO — current" },
 ];
 

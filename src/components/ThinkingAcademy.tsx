@@ -32,12 +32,13 @@ export default function ThinkingAcademy() {
             Thinking Academy &middot; Founded 2022
           </span>
           <h2 className="mx-auto mt-8 max-w-[18ch] font-serif text-[12vw] font-light italic leading-[1.05] sm:text-[7vw] lg:text-[4.4vw]">
-            Think Your Way to the Top.
+            The Thinking Academy.
           </h2>
           <p className="mx-auto mt-8 max-w-[54ch] text-[17px] leading-[1.75] text-ivory-dim/80 md:text-[18px]">
-            A year-long executive coaching and business growth experience
-            designed to help ambitious leaders think with greater clarity,
-            scale smarter and lead stronger.
+            Built around the &ldquo;Think Your Way to the Top&rdquo;
+            methodology, this year-long executive coaching and business
+            growth experience helps ambitious leaders think with greater
+            clarity, scale smarter and lead stronger.
           </p>
         </Reveal>
 

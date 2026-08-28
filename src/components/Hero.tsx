@@ -53,7 +53,7 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <CTALink href="#about" variant="solid" className="!bg-ivory !text-ink hover:!bg-accent-soft">
-                Explore Des&rsquo;s Story
+                Discover Des&rsquo;s Story
               </CTALink>
               <CTALink href="#speaking" variant="outline-light">
                 Invite Des to Speak

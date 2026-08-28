@@ -57,7 +57,7 @@ export default function Books() {
                 52-week journal for getting ahead and staying there.
               </p>
               <CTALink href="#" variant="link-dark" className="mt-6">
-                Explore the Book
+                Explore the Journal
               </CTALink>
             </Reveal>
 
@@ -78,7 +78,7 @@ export default function Books() {
                 resilience.
               </p>
               <CTALink href="#" variant="link-dark" className="mt-6">
-                Explore the Book
+                Explore the Memoir
               </CTALink>
             </Reveal>
           </div>

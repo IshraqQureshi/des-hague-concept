@@ -10,7 +10,7 @@ export default function CurrentLeadership() {
         <Reveal>
           <Eyebrow>Leadership</Eyebrow>
           <h2 className="mt-6 max-w-[16ch] font-serif text-[11vw] font-light leading-[1.02] text-ink sm:text-[7vw] lg:text-[3.6vw]">
-            Leading what&rsquo;s next.
+            What Des leads today.
           </h2>
           <p className="mt-6 max-w-[52ch] text-[17px] leading-[1.7] text-ink/65 md:text-[18px]">
             Today, Des leads organizations at the intersection of consumer
